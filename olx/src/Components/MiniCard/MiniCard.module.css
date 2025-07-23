@@ -1,0 +1,37 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 20px;
+  padding: 20px 40px;
+  justify-items: center;
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  width: 120px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  background-color: #f1f1f1;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #002f34;
+}

@@ -1,0 +1,168 @@
+.footerdivide {
+  background-color: #f7f8f9;
+  border-top: 1px solid #ddd;
+}
+
+/* Mobile App Section */
+.downloadSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 80px;
+  flex-wrap: wrap;
+}
+
+.textAndImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+
+.downloadLink {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2864FF;
+  text-decoration: none;
+}
+
+.mobileAppImg {
+  width: 160px;
+  height: auto;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.storeIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.storeIcons img {
+  height: 40px;
+}
+
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.topSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.linksSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.linksSection div {
+  min-width: 160px;
+}
+
+.linksSection h5 {
+  font-size: 16px;
+  color: #002f34;
+  margin-bottom: 10px;
+}
+
+.linksSection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linksSection ul li {
+  font-size: 14px;
+  color: #406367;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.linksSection ul li:hover {
+  text-decoration: underline;
+  color: #002f34;
+}
+
+/* Center Social & Button */
+.centerActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 12px;
+}
+
+.socialIcons img {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Back to top button */
+.backToTop {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background-color: white;
+  color: #002f34;
+  border: 1px solid #002f34;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.backToTop:hover {
+  background-color: #002f34;
+  color: white;
+}
+
+/* Bottom Footer */
+.bottomSection {
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #002f34;
+  color: white;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .downloadSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .topSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .linksSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .storeIcons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,31 @@
+.category-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.category-item {
+  color: #002f34;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.category-item:hover {
+  text-decoration: underline;
+}
+
+.all-categories {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #002f34;
+}

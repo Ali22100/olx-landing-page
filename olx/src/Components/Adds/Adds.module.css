@@ -1,0 +1,18 @@
+.bannerContainer {
+  margin: 30px auto; /* Left and right margin */
+  padding: 15px;
+  background: #f2f2f2;
+  /* border: 2px solid #00bcd4; */
+  border-radius: 12px;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bannerRow {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,47 @@
+.daraz-navbar {
+  background-color: #eef3ff;
+  padding: 10px 20px;
+}
+
+.daraz-logo {
+  height: 30px;
+}
+
+.nav-icon-img {
+  width: 24px;
+  height: 24px;
+}
+
+.search-input {
+  border-radius: 0;
+}
+
+.search-btn {
+  background-color: #002f34;
+  color: white;
+  border-radius: 0;
+  padding: 0 12px;
+  white-space: nowrap;
+}
+
+.login-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #002f34;
+}
+
+.sell-btn {
+  background: linear-gradient(to right, #ffce32, #00a49f, #3a77ff);
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.location-dropdown .dropdown-toggle {
+  background-color: white;
+  border: 1px solid #ccc;
+  font-weight: 500;
+  color: #333;
+}

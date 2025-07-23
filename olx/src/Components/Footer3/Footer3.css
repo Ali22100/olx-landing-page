@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-section h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #000;
+}
+
+.countries span {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.countries img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.socials img {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.1);
+}
+
+.footer-right {
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .countries, .socials {
+    flex-wrap: wrap;
+  }
+}
